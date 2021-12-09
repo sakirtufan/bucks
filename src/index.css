@@ -11,6 +11,14 @@ body {
   font-size: 2rem;
 }
 
-#card .dropdown{
-  
+
+/***** dropdown menu *****/
+
+.dropbtn {
+  border: none;
+  background-color: white;
 }
+.dropdown-content a{
+  display: none;
+}
+
