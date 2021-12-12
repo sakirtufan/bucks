@@ -5,7 +5,6 @@ html {
 
 body {
   font-size: 1.6rem;  
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #card .container div{
@@ -15,9 +14,11 @@ body {
 
 /***** dropdown menu *****/
 
-/*butonlar*/
-*{
-  border: 1px solid red;
+/*buton*/
+
+#dropdown {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 6rem 0 7rem;
 }
 
 #dropdown .dropbtn {
@@ -25,72 +26,69 @@ body {
   font-size: 2.3rem;
   width: 100%;
   border: none;
-  cursor: pointer;
-  text-align: start;
-  
-}
-
-#dropdown p{
-  display: inline-block;
-  width: 94%;
+  cursor: pointer;  
 }
 
 #dropdown i{
   font-size: 1.2rem;
-  padding: 1.3rem;
+  padding: 1.5rem;
+  margin: 2rem; 
 }
 
-#dropdown i:hover {
-  background-color: #E8E8E8 ;
-  border-radius: 50%;
+#dropdown .flex{
+  display: flex;
+  justify-content: space-between;
 }
-
 
 /*acilir menü*/
 
 #dropdown .dropdown-content {
   display: none;
   position: absolute;
-  width: 100%;
 }
 
 #dropdown .dropdown-content a {
   color: #5F6769;
   font-weight: bold;
-  padding: 1rem 2rem 1rem 2rem;
   font-size: 1.3rem;
   text-decoration: none;
   display: block; 
+  margin: 1rem 0 1rem 0;
+  text-align: start;
 }
 
-#dropdown .dropdown-content a:hover {
+#dropdown hr {
+  border: solid 1px #DBDBDB;
+}
+
+/*hover effekt*/
+
+#dropdown i:hover {
+  background-color: #E8E8E8 ;
+  border-radius: 50%;
+}
+
+#dropdown a:hover {
   color: black;
-  width: 100%;
 }
 
 #dropdown .dropbtn:hover .dropdown-content {
   display: block;
-  background-color: white;
 }
 
-hr {
-  border: solid 1px #DBDBDB;
-  margin: 1.5rem;
-}
-/*hover */
 #dropdown .first:hover  { 
   margin-bottom: 25rem;
 }
 
 #dropdown .second:hover  { 
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 #dropdown .third:hover  { 
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 
 }
 #dropdown .fourth:hover  { 
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 
 }
 #dropdown .fifth:hover  { 
