@@ -74,6 +74,11 @@ body {
 
 #dropdown .dropbtn:hover .dropdown-content {
   display: block;
+  background-color: white;
+}
+
+.dropbtn:hover {
+  transition: 2s;
 }
 
 #dropdown .first:hover  { 
