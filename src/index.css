@@ -101,3 +101,14 @@ body {
 
 }
 
+/* hover ile iconlarin degisir*/
+.dropbtn:hover .fa-chevron-down,
+.dropbtn .fa-chevron-up {
+    display: none;
+    cursor: pointer;
+}
+.dropbtn:hover .fa-chevron-up {
+    display: flex;
+}
+
+
