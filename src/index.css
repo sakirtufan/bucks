@@ -43,7 +43,7 @@ body {
 /*acilir menü*/
 
 #dropdown .dropdown-content {
-  display: none;
+  visibility: hidden;
   position: absolute;
 }
 
@@ -66,6 +66,7 @@ body {
 #dropdown i:hover {
   background-color: #E8E8E8 ;
   border-radius: 50%;
+  transform: rotate(180deg);
 }
 
 #dropdown a:hover {
@@ -73,12 +74,12 @@ body {
 }
 
 #dropdown .dropbtn:hover .dropdown-content {
-  display: block;
   background-color: white;
+  visibility: visible;  
 }
 
-.dropbtn:hover {
-  transition: 2s;
+#dropdown .dropbtn:hover {
+  transition: 1s;
 }
 
 #dropdown .first:hover  { 
@@ -100,15 +101,3 @@ body {
   margin-bottom: 5rem;
 
 }
-
-/* hover ile iconlarin degisir*/
-.dropbtn:hover .fa-chevron-down,
-.dropbtn .fa-chevron-up {
-    display: none;
-    cursor: pointer;
-}
-.dropbtn:hover .fa-chevron-up {
-    display: flex;
-}
-
-
