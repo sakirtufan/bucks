@@ -4,13 +4,74 @@ html {
 }
 
 body {
-  font-size: 1.6rem;  
+  font-size: 1.6rem;
 }
 
-#card .container div{
+#card .container div {
   font-size: 2rem;
 }
 
-#card .dropdown{
-  
+/* 
+*{
+  border: 1px solid red;
+} */
+
+#card .dropdown {}
+
+#card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 16.2rem 6.4rem 0 8.6rem;
+  gap: 1rem;
+}
+
+#card-wrapper .card {
+  flex-basis: 49%;
+  margin-bottom: 3.2rem;
+  /* box-shadow: 0 0.2rem 0.8rem 0.1rem hsl(0deg 0% 42% / 11%), 0 0.1rem 0.1rem 0 #ccc; */
+  -webkit-box-shadow: -1px 0px 21px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: -1px 0px 21px -4px rgba(0, 0, 0, 0.38);
+
+}
+
+#card-wrapper .card img {
+  width: 100%;
+}
+
+#card-wrapper .description {
+  padding: 3.7rem 2.7rem;
+  line-height: 1.15rem;
+}
+
+#card-wrapper .description h3 {
+  font-size: 2rem;
+  letter-spacing: -0.02rem;
+  line-height: 2.7rem;
+  color: #1F1F1F;
+
+}
+
+#card-wrapper .description p {
+  font-size: 1.4rem;
+  letter-spacing: 0.014rem;
+  color: #6C6C6C;
+  line-height: 2rem;
+}
+
+#card-wrapper .description button {
+  font-size: 1rem;
+  color: #008248;
+  border: 1px solid #008248;
+  padding: 0.8rem 1.6rem;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out; 
+  text-align: center;
+  border-radius: 100rem;
+  font-weight: bold;
+
+}
+
+#card-wrapper button:hover {
+  background-color: #D3E4CD;
 }
