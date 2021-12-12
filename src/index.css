@@ -19,6 +19,7 @@ body {
 #card .dropdown {}
 
 #card-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
