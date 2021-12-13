@@ -23,9 +23,9 @@
     </nav>
     <section>
         <div id="main-left">
-            <p>
+            <span>
                 image left
-            </p>
+            </span>
         </div>
         <div id="main-right">
             <div id="image-adventskalender">
@@ -51,65 +51,74 @@
             </div>
 
             <div id="dropdown">
-                <button class="dropbtn first">
-                    <div class="flex">
-                        <p> Über uns </p>
-                        <i class="fas fa-chevron-down"></i>
+                <section class="dropdown-item mb-12">
+                    <div class="dropdown-header">
+                        <span> Über uns </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
                     </div>
                     <div class="dropdown-content">
-                        <a class="a" href="#">Food service</a><br>
-                        <a class="a" href="#">Über uns</a><br>
-                        <a class="a" href="#">Unsere Kaffees</a><br>
-                        <a class="a" href="#">Starbuks Stories & News</a><br>
+                        <ul>
+                            <li><a class="menü" href="#">Food service</a></li>
+                            <li><a class="menü" href="#">Über uns</a></li>
+                            <li><a class="menü" href="#">Unsere Kaffees</a></li>
+                            <li><a class="menü" href="#">Starbuks Stories & News</a></li>
+                        </ul>
                     </div>
-                </button>
+                </section>
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span> Gäste-Service </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Gästeanfragen</a></li>
+                            <li><a class="menü" href="#">Presse- und Medienanfragen</a></li>
+                        </ul>
+                    </div>
+                </section>
 
-                <br>
-                <button class="dropbtn second">
-                    <div class="flex">
-                        <p> Gäste-Service </p>
-                        <i class="fas fa-chevron-down"></i>
-                    </div>
-                    <div class="dropdown-content">
-                        <a class="a" href="#">Gästeanfragen</a>
-                        <a class="a" href="#">Presse- und Medienanfragen</a>
-                    </div>
-                </button>
 
-                <br>
-                <button class="dropbtn third">
-                    <div class="flex">
-                        <p>Karriere</p>
-                        <i class="fas fa-chevron-down"></i>
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span>Karriere</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
                     </div>
                     <div class="dropdown-content">
-                        <a href="#">Karriere Seite</a>
-                        <a href="#">Offene Positionen</a>
-                    </div>
-                </button>
+                        <ul>
+                            <li><a class="menü" href="#">Karriere Seite</a></li>
+                            <li><a class="menü" href="#">Offene Positionen</a></li>
+                        </ul>
 
-                <br>
-                <button class="dropbtn fourth">
-                    <div class="flex">
-                        <p>Social Impact</p>
-                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="dropdown-content">
-                        <a href="#">Verantwortung</a>
-                    </div>
-                </button>
+                </section>
 
-                <br>
-                <button class="dropbtn fifth ">
-                    <div class="flex">
-                        <p>Starbucks Card</p>
-                        <i class="fas fa-chevron-down"></i>
+
+                <section class="dropdown-item mb-5">
+                    <div class="dropdown-header">
+                        <span>Social Impact</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
                     </div>
                     <div class="dropdown-content">
-                        <a href="#">Starbucks Card</a>
+                        <ul>
+                            <li><a class="menü" href="#">Verantwortung</a></li>
+                        </ul>
+
                     </div>
-                </button>
-                <hr>
+                </section>
+                <section class="dropdown-item mb-5 ">
+                    <div class="dropdown-header">
+                        <span>Starbucks Card</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Starbucks Card</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <hr class="line">
             </div>
 
             <footer id="footer">
@@ -117,13 +126,6 @@
             </footer>
 
     </section>
-
-
-
-
-
-
-
     <script src="./index.js"></script>
 </body>
 

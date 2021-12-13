@@ -7,6 +7,17 @@ body {
   font-size: 1.6rem;  
 }
 
+*,
+*::after,
+*::before {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ list-style: none;
+ list-style-type: none;
+ text-decoration: none;
+}
+
 #card .container div{
   font-size: 2rem;
 }
@@ -21,7 +32,7 @@ body {
   margin: 0 6rem 0 7rem;
 }
 
-#dropdown .dropbtn {
+#dropdown .dropdown-item {
   background-color: white;
   font-size: 2.3rem;
   width: 100%;
@@ -29,25 +40,28 @@ body {
   cursor: pointer;  
 }
 
-#dropdown i{
-  font-size: 1.2rem;
+#dropdown .arrow{
+  
   padding: 1.5rem;
-  margin: 2rem; 
+  
 }
-
-#dropdown .flex{
+.m-2{
+  margin: 2rem;
+}
+#dropdown .dropdown-header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /*acilir menü*/
 
 #dropdown .dropdown-content {
-  visibility: hidden;
+  display: none;
   position: absolute;
 }
 
-#dropdown .dropdown-content a {
+#dropdown .dropdown-content .menü {
   color: #5F6769;
   font-weight: bold;
   font-size: 1.3rem;
@@ -57,47 +71,42 @@ body {
   text-align: start;
 }
 
-#dropdown hr {
+#dropdown .line {
   border: solid 1px #DBDBDB;
 }
 
 /*hover effekt*/
-
-#dropdown i:hover {
-  background-color: #E8E8E8 ;
-  border-radius: 50%;
+#dropdown .dropdown-item:hover .arrow{
   transform: rotate(180deg);
 }
 
-#dropdown a:hover {
+#dropdown .arrow:hover {
+  background-color: #E8E8E8 ;
+  border-radius: 50%;
+}
+
+#dropdown .menü:hover {
   color: black;
 }
 
-#dropdown .dropbtn:hover .dropdown-content {
+#dropdown .dropdown-item:hover .dropdown-content {
   background-color: white;
-  visibility: visible;  
+  display: block; 
 }
 
-#dropdown .dropbtn:hover {
+#dropdown .dropdown-item:hover {
   transition: 1s;
 }
 
-#dropdown .first:hover  { 
-  margin-bottom: 25rem;
+#dropdown .mb-12:hover  { 
+  margin-bottom: 12rem;
 }
 
-#dropdown .second:hover  { 
+#dropdown .mb-8:hover  { 
   margin-bottom: 8rem;
+ 
 }
-#dropdown .third:hover  { 
-  margin-bottom: 8rem;
-
-}
-#dropdown .fourth:hover  { 
-  margin-bottom: 5rem;
-
-}
-#dropdown .fifth:hover  { 
+#dropdown .mb-5:hover  { 
   margin-bottom: 5rem;
 
 }
