@@ -7,10 +7,103 @@ body {
   font-size: 1.6rem;  
 }
 
-#card .container div{
-  font-size: 2rem;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 
-#card .dropdown{
-  
+.main-container{
+  display: flex;
+  background-color: bisque;
 }
+
+#main-left{
+  background-color: chartreuse;
+  width: 30rem;  
+}
+
+#main-right{
+  background-color: #F7F7F7;
+  width: 100%;  
+}
+
+
+#dropdown .dropdown-container{
+  max-width: 140rem;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+#dropdown .accordion-item{
+  padding: 0.5rem 0;
+  margin: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#dropdown .accordion-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+#dropdown .dropdown-item-icon{
+  font-size: .7rem;
+  transform: translateX(-50%) rotate(0);
+  transition: transform .5s ease;
+}
+
+
+
+#dropdown .accordion-list-item{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#dropdown .accordion-link{
+  font-size:x-small;
+  color: #575757;
+  font-weight: 400;
+}
+
+#dropdown .accordion-link:hover{
+  color: black;
+}
+
+#dropdown .line{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+#dropdown .accordion-item.active  .dropdown-item-icon{
+  transform: translateX(-50%) rotate(-180deg);
+}
+
+#dropdown .accordion-item-content{
+  display: none;
+}
+
+#dropdown .accordion-item.active  .accordion-item-content{
+  display: block;
+}
+
+
+
+
+
