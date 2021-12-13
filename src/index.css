@@ -1,8 +1,20 @@
-* {
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 1px solid black; */
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+} 
+
+:root {
+  --color-success:#008248;
 }
 
 html {
@@ -51,7 +63,68 @@ body {
 }
 
 .btn-more:hover{
-  background: hsla(0,0%,100%,.12);
-   
+  background: hsla(0,0%,100%,.12); 
+
   
+}
+
+#card .container div {
+  font-size: 2rem;
+}
+
+#card-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  padding: 16.2rem 6.4rem 0 8.6rem;
+  gap: 1rem;
+}
+
+#card-wrapper .card {
+  flex-basis: 49%;
+  margin-bottom: 3.2rem;
+  -webkit-box-shadow: -1px 0px 21px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: -1px 0px 21px -4px rgba(0, 0, 0, 0.38);
+}
+
+#card-wrapper .card img {
+  width: 100%;
+}
+
+#card-wrapper .description {
+  padding: 1.7rem  2.7rem; 
+  line-height: 1.15rem;
+}
+
+#card-wrapper .description h3 {
+  font-size: 2rem;
+  letter-spacing: -0.02rem;
+  line-height: 2.7rem;
+  color: #1F1F1F;
+
+}
+
+#card-wrapper .description p {
+  font-size: 1.4rem;
+  letter-spacing: 0.014rem;
+  color: #6C6C6C;
+  line-height: 2rem;
+}
+
+#card-wrapper .description button {
+  font-size: 1rem;
+  color: var(--color-success);
+  border: 1px solid var(--color-success);
+  padding: 0.8rem 1.6rem;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out; 
+  text-align: center;
+  border-radius: 100rem;
+  font-weight: bold;
+
+}
+
+#card-wrapper button:hover {
+  background-color: #D3E4CD;
 }
