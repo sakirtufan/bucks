@@ -31,6 +31,10 @@ body {
   width: 100%;
 }
 
+.w-100-vh{
+  height: 100vh;
+}
+
 #said.container {
   display: grid;
   grid-template: auto / auto auto;
