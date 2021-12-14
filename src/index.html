@@ -12,7 +12,7 @@
 
     <!-- <link rel="stylesheet" href="./normalize.css"> -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="./index.css">
 </head>
 
@@ -23,9 +23,9 @@
     </nav>
     <section>
         <div id="main-left">
-            <p>
+            <span>
                 image left
-            </p>
+            </span>
         </div>
         <div id="main-right">
             <div id="image-adventskalender">
@@ -49,21 +49,83 @@
             <div id="Karriere">
                 Karriere
             </div>
-            <section id="dropdown">
-                dropdown menu
-            </section>
+
+            <div id="dropdown">
+                <section class="dropdown-item mb-12">
+                    <div class="dropdown-header">
+                        <span> Über uns </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Food service</a></li>
+                            <li><a class="menü" href="#">Über uns</a></li>
+                            <li><a class="menü" href="#">Unsere Kaffees</a></li>
+                            <li><a class="menü" href="#">Starbuks Stories & News</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span> Gäste-Service </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Gästeanfragen</a></li>
+                            <li><a class="menü" href="#">Presse- und Medienanfragen</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span>Karriere</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Karriere Seite</a></li>
+                            <li><a class="menü" href="#">Offene Positionen</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+                <section class="dropdown-item mb-5">
+                    <div class="dropdown-header">
+                        <span>Social Impact</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Verantwortung</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="dropdown-item mb-5 ">
+                    <div class="dropdown-header">
+                        <span>Starbucks Card</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Starbucks Card</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <hr class="line">
+            </div>
+
             <footer id="footer">
                 footer
             </footer>
-        </div>
+
     </section>
-
-
-
-
-
-
-
     <script src="./index.js"></script>
 </body>
 
