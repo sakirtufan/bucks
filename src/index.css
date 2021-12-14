@@ -66,6 +66,73 @@ body {
   background: hsla(0,0%,100%,.12); 
 
   
+  padding: 1.5rem;
+  
+}
+.m-2{
+  margin: 2rem;
+}
+#dropdown .dropdown-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*acilir menü*/
+
+#dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+#dropdown .dropdown-content .menü {
+  color: #5F6769;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: block; 
+  margin: 1rem 0 1rem 0;
+  text-align: start;
+}
+
+#dropdown .line {
+  border: solid 1px #DBDBDB;
+}
+
+/*hover effekt*/
+#dropdown .dropdown-item:hover .arrow{
+  transform: rotate(180deg);
+}
+
+#dropdown .arrow:hover {
+  background-color: #E8E8E8 ;
+  border-radius: 50%;
+}
+
+#dropdown .menü:hover {
+  color: black;
+}
+
+#dropdown .dropdown-item:hover .dropdown-content {
+  background-color: white;
+  display: block; 
+}
+
+#dropdown .dropdown-item:hover {
+  transition: 1s;
+}
+
+#dropdown .mb-12:hover  { 
+  margin-bottom: 12rem;
+}
+
+#dropdown .mb-8:hover  { 
+  margin-bottom: 8rem;
+ 
+}
+#dropdown .mb-5:hover  { 
+  margin-bottom: 5rem;
+
 }
 
 #card .container div {
