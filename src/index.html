@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bucks</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -13,103 +13,240 @@
     <!-- <link rel="stylesheet" href="./normalize.css"> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-    <nav>
-        navbar
-        <i class="fas fa-arrow-alt-circle-up"></i>
+    <nav style="height: 10rem;">
+        <header class="w-100">
+            <nav>
+                <a href="#" class="logo-navigation">
+                    <img src="./images/1200px-Starbucks_Logo_ab_2011.svg.png" alt="nav-logo" style="height: 51px"
+                        width="51px" />
+                </a>
+                <div class="navigation-wrapper">
+                    <div class="navigation-items">
+                        <ul class="primary-navigation">
+                            <li><a href="#" class="item-menu">Menu</a></li>
+                            <li><a href="" class="item-naehrwerte">Nährwerte</a></li>
+                            <li><a href="" class="item rewards">Rewards</a></li>
+                            <li>
+                                <a href="" class="item-delivers">Starbucks Delivers</a>
+                            </li>
+                        </ul>
+                        <ul class="secondary-navigation">
+                            <li class="find-a-store-button">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <a href="#"> Coffee House Suche</a>
+                            </li>
+                            <li class="login-button"><a href="#">Anmelden</a></li>
+                            <li class="abstract-button"><a href="#">Jetzt mitmachen</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <i class="fas fa-arrow-alt-circle-up"></i> -->
+            </nav>
+        </header>
     </nav>
-    <section>
-        <div id="main-left">
-            <p>
-                image left
-            </p>
+    <section id="said" class="container">
+        <div id="said" class="main-left w-100-vh">
+            <figure>
+                <img class="img-sticky w-100-vh" src="images/614909 - SR WebAssets_827x900_v03.jpg.jpeg" alt="img-left">
+            </figure>
+            <a class="btn-more" href="#">Erfahre mehr</a>
         </div>
-        <div id="main-right">
-            <div id="image-adventskalender">
-                image-adventskalender
+        <div id="said" class="main-right">
+            <div class="image-adventskalender">
+                <figure>
+                    <img class=" w-100" src="images/HOL21_1335x534_Website_Banner_Adventskalender_01.jpg.jpeg"
+                        alt="img-right-first">
+                </figure>
             </div>
-            <div>
-                Es ist wieder die schönste Zeit des Jahres! Weihnachten steht vor der Tür.
+            <div style="height: 22rem;">
+                <h2 class="p-3">Es ist wieder die schönste Zeit des Jahres! Weihnachten steht vor der Tür.
+                </h2>
+                <p class="p-3">
+                    Mit unserem virtuellen Starbucks Adventskalender geben wir Euch die Möglichkeit, Euch ein Stück der
+                    Starbucks Experience direkt nach Hause zu holen: Vom 02.11 bis zum 24.12. erhältst Du mit jedem
+                    Starbucks Kassenbon Deine persönliche CHK-Nummer. Mit dieser kannst Du Dich für die Verlosung der
+                    Preise registrieren, die hinter unseren 24 Adventstüren auf Dich warten. Wähle eine Tür aus, gib die
+                    CHK-Nummer ein und registriere Dich für die Verlosung! Unsere tollen Gewinne verschönern Dir sicher
+                    die Vorweihnachtszeit. Besuche uns auf: <a href="">www.starbucks.online-adventskalender.de</a>
+                </p>
             </div>
-            <div id="image-köstliche-weihnachtszeit">
-                image-köstliche-weihnachtszeit
+            <div id="said" class="image-köstliche-weihnachtszeit">
+                <figure>
+                    <img class=" w-100" src="images/HOL21_1335x534_Website_Banner_Beverages_01.jpg.jpeg"
+                        alt="img-right-second">
+                </figure>
             </div>
-            <!-- <div id="card">
-                <div class="container">
-                    <div>deneme</div>
-                </div>
-                
-            </div>  -->
-
-            <div id="card-wrapper">
-                <div class="card">
-                    <img src="https://www.starbucks.de/sites/starbucks-de/files/styles/c06_cards_grid_560x321/public/2020-10/200630_CORE_Covid19_Comm_Website_Banner_C06_560x321_150dpi_02_0.jpg.webp?itok=3SERDtBU"
-                        alt="">
-                    <div class="description">
-                        <h3>Update.</h3>
-                        <p>Öffnungszeiten unserer Coffee Houses</p>
+            <div class="card">
+                <div id="card-wrapper">
+                    <div class="card">
+                        <img class="w-100"
+                            src="https://www.starbucks.de/sites/starbucks-de/files/styles/c06_cards_grid_560x321/public/2020-10/200630_CORE_Covid19_Comm_Website_Banner_C06_560x321_150dpi_02_0.jpg.webp?itok=3SERDtBU"
+                            alt="">
+                        <div class="description">
+                            <h3>Update.</h3>
+                            <p>Öffnungszeiten unserer Coffee Houses</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="./images/IMG_2527.jpg.jpeg" alt="">
-                    <div class="description">
-                        <h3>Starbucks Delivers mit Lieferando</h3>
-                        <p>Lass dir deine Starbucks Lieblinge direkt vor deine Haustür liefern oder <br> einfach vorbestellen
-                            und direkt im Coffee House abholen</p>
-                        <a href="https://www.starbucks.de/starbucks-delivers"> <button>Jetzt bestellen</button> </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="./images/About-Us-Card-Image-C06-RESIZED (2).jpg.jpeg" alt="">
-                    <div class="description">
-                        <h3>Über uns</h3>
-                        <p>Über unsere Geschichte und das Unternehmen</p>
-                        <a href="https://www.starbucks.de/uber-uns"> <button>Erfahre mehr</button> </a>
-                    </div>
-                </div>
+                    <div class="card">
+                        <img class="w-100" src="./images/IMG_2527.jpg.jpeg" alt="">
+                        <div class="description">
+                            <h3>Starbucks Delivers mit Lieferando</h3>
+                            <p>Lass dir deine Starbucks Lieblinge direkt vor deine Haustür liefern oder <br> einfach
+                                vorbestellen
+                                und direkt im Coffee House abholen</p>
 
-                <div class="card">
-                    <img src="./images/Starbucks-Stories-Card-Image-C06-RESIZED.jpg.jpeg" alt="">
-                    <div class="description">
-                        <h3>Starbucks Stories</h3>
-                        <p>Bleibe auf dem Laufenden mit unseren neusten Stories</p>
-                        <a href="https://stories.starbucks.com/emea/"> <button>Erfahre mehr</button> </a>
+
+                            <a href="https://www.starbucks.de/starbucks-delivers">
+                                <button>
+                                    Jetzt bestellen
+                                </button>
+                            </a>
+
+                        </div>
                     </div>
+                    <div class="card">
+                        <img class="w-100" src="./images/About-Us-Card-Image-C06-RESIZED (2).jpg.jpeg" alt="">
+                        <div class="description">
+                            <h3>Über uns</h3>
+                            <p>Über unsere Geschichte und das Unternehmen</p>
+
+                            <a href="https://www.starbucks.de/uber-uns">
+                                <button>
+                                    Erfahre mehr
+                                </button> </a>
+
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="w-100" src="./images/Starbucks-Stories-Card-Image-C06-RESIZED.jpg.jpeg" alt="">
+                        <div class="description">
+                            <h3>Starbucks Stories</h3>
+                            <p>Bleibe auf dem Laufenden mit unseren neusten Stories</p>
+
+                            <a href="https://stories.starbucks.com/emea/">
+                                <button>Erfahre mehr</button> </a>
+
+                        </div>
+                    </div>
+
                 </div>
+            </div>
+            <div id="said" class="image-you">
+                <figure>
+                    <img class=" w-100" src="images/Fartuch_LP_final.jpg.jpeg" alt="img-right-third">
+                </figure>
 
             </div>
-
-
-
-
-
-
-
-            <div id="image-you">
-                image you
+            <div class="karriere">
+                <h2 class="m-2">Karriere</h2>
+                <button class="karriere-button m-2">
+                    <a href="">Karriere Seite</a>
+                </button>
             </div>
-            <div id="Karriere">
-                Karriere
+
+            <div id="dropdown">
+                <section class="dropdown-item mb-12">
+                    <div class="dropdown-header">
+                        <span> Über uns </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Food service</a></li>
+                            <li><a class="menü" href="#">Über uns</a></li>
+                            <li><a class="menü" href="#">Unsere Kaffees</a></li>
+                            <li><a class="menü" href="#">Starbuks Stories & News</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span> Gäste-Service </span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Gästeanfragen</a></li>
+                            <li><a class="menü" href="#">Presse- und Medienanfragen</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <section class="dropdown-item mb-8">
+                    <div class="dropdown-header">
+                        <span>Karriere</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Karriere Seite</a></li>
+                            <li><a class="menü" href="#">Offene Positionen</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+                <section class="dropdown-item mb-5">
+                    <div class="dropdown-header">
+                        <span>Social Impact</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Verantwortung</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <section class="dropdown-item mb-5 ">
+                    <div class="dropdown-header">
+                        <span>Starbucks Card</span>
+                        <i class="fas fa-chevron-down fa-sm m-2 arrow"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a class="menü" href="#">Starbucks Card</a></li>
+                        </ul>
+
+                    </div>
+                </section>
+                <hr class="line">
             </div>
-            <section id="dropdown">
-                dropdown menu
-            </section>
+
             <footer id="footer">
-                footer
+                <ul class="footer-list">
+                    <li>
+                        <a class="footer-list-link" href="">Datenschutzerklärung</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Starbucks Card AGB</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Barrierefreiheit im Internet</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Cookie Hinweis</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Cookie Policy</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Impressum</a>
+                    </li>
+                </ul>
             </footer>
-        </div>
+
     </section>
-
-
-
-
-
-
-
     <script src="./index.js"></script>
+
 </body>
 
 </html>
