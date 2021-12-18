@@ -128,7 +128,15 @@ body {
   display: block; 
   margin: 1rem 0 1rem 0;
   text-align: start;
+  
 }
+/* acilir menü iceriklerinin alt alta olmasi icin */ 
+
+.dropdown-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} 
 
 #dropdown .line {
   border: solid 1px #DBDBDB;
